@@ -1,14 +1,20 @@
-import { useState } from 'react'
-
-import './App.css'
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
+import Navbar from './components/navbar/INDEX.JSX';
+import Home from './components/herosection/Home';
 
 function App() {
-
   return (
     <>
-    <h1>Hello</h1>
+      <div className="min-h-screen bg-body  ">
+        <Navbar />
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
