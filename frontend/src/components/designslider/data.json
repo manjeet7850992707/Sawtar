@@ -1,10 +1,28 @@
 [
   {
-    "name": "Interior Design",
-    "description": "Transform your indoor spaces into warm, stylish, and functional areas.",
-    "image": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000",
+    "name": "Modular Kitchen Designs",
+    
     "items": [
       {
+        "title": "Living Room",
+        "desc": "Modern and cozy space.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },
+      {
+        "title": "Bedroom",
+        "desc": "Warm and relaxing area.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },
+      {
+        "title": "Dining",
+        "desc": "Elegant eating space.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },
+      {
+        "title": "Study",
+        "desc": "Focused workspace.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },{
         "title": "Living Room",
         "desc": "Modern and cozy space.",
         "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
@@ -27,9 +45,8 @@
     ]
   },
   {
-    "name": "Exterior Design",
-    "description": "Elevate the look of your home with stylish and functional exteriors.",
-    "image": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000",
+    "name": "Living Room Designs",
+    
     "items": [
       {
         "title": "Balcony",
@@ -51,12 +68,31 @@
         "desc": "Space for gatherings.",
         "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
       }
+      ,{
+        "title": "Living Room",
+        "desc": "Modern and cozy space.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },
+      {
+        "title": "Bedroom",
+        "desc": "Warm and relaxing area.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },
+      {
+        "title": "Dining",
+        "desc": "Elegant eating space.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      },
+      {
+        "title": "Study",
+        "desc": "Focused workspace.",
+        "img": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000"
+      }
     ]
   },
   {
-    "name": "Modular Kitchen",
-    "description": "Smart kitchen layouts that combine beauty and convenience.",
-    "image": "https://plus.unsplash.com/premium_photo-1683140882981-490928b33596?fm=jpg&q=60&w=3000",
+    "name": "Wardrobe Designs",
+  
     "items": [
       {
         "title": "U-Shaped",

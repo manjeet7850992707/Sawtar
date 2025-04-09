@@ -1,19 +1,22 @@
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/navbar/INDEX.JSX';
-import Home from './components/herosection/Home';
+import Home from './components/homepage/Home';
+import Footer from './components/footer/footer';
+import Login from './components/login';
 
 function App() {
   return (
-    <>
-      <div className="min-h-screen bg-body  ">
+    <HashRouter>
+      <div className="min-h-screen">
         <Navbar />
-
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path="/" element={<Home />} />
+
         </Routes>
+        <Footer />
       </div>
-    </>
+    </HashRouter>
   );
 }
 

@@ -1,8 +1,13 @@
 @import "tailwindcss";
+@import 'swiper/css';
+@import 'swiper/css/navigation';
 
 
 
 
 @theme{
-  --color-body: #F7F6F9
+  --color-body: #F7F6F9;
+  --color-btn: #D26C44;
+  --color-hoverbtn: #ba5933;
+
 }

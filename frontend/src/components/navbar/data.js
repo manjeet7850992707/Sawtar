@@ -1,29 +1,40 @@
 // data.js
 export const navItems = [
+  { title: "Interiors", path: "/interiors" },
   {
-    title: "Home",
-    path: "/",
-  },
-  {
-    title: "Dropdown",
-    path: "#",
+    title: "Design Ideas",
     dropdown: [
-      { title: "Dashboard", path: "/dashboard" },
-      { title: "Settings", path: "/settings" },
-      { title: "Earnings", path: "/earnings" },
-      { title: "Sign out", path: "/signout" },
+      { title: "Living Room", path: "/design-ideas/living-room" },
+      { title: "Bedroom", path: "/design-ideas/bedroom" },
     ],
   },
   {
-    title: "Services",
-    path: "/services",
+    title: "Magazine",
+    dropdown: [
+      { title: "Home Trends", path: "/magazine/trends" },
+      { title: "Inspiration", path: "/magazine/inspiration" },
+    ],
   },
   {
-    title: "Pricing",
-    path: "/pricing",
+    title: "Livspace TV",
+    dropdown: [
+      { title: "Episodes", path: "/tv/episodes" },
+      { title: "Behind the Scenes", path: "/tv/bts" },
+    ],
+  },
+  { title: "Cities", path: "/cities" },
+  {
+    title: "Store Locator",
+    dropdown: [
+      { title: "Find a Store", path: "/store-locator/find" },
+      { title: "Book Visit", path: "/store-locator/book" },
+    ],
   },
   {
-    title: "Contact",
-    path: "/contact",
+    title: "More",
+    dropdown: [
+      { title: "About Us", path: "/about" },
+      { title: "Careers", path: "/careers" },
+    ],
   },
 ];
