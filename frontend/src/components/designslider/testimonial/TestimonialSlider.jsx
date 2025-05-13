@@ -9,36 +9,36 @@ const testimonials = [
   {
     img: "https://randomuser.me/api/portraits/men/32.jpg",
     name: "S. Anandan",
-    role: "Owner, Tamil Nadu",
-    desc: "A Relationship Manager followed up with potential customers and ensured every detail was perfectly communicated. The follow-ups were timely and courteous.",
+    role: "Homeowner, Tamil Nadu",
+    desc: "A freelance designer brought our dream home to life. Everything was well-communicated and on time, from 3D visualization to final delivery.",
     videoUrl: testimonialvideo,
   },
   {
     img: "https://randomuser.me/api/portraits/men/45.jpg",
     name: "R. Kumar",
     role: "Tenant, Bangalore",
-    desc: "99acres helped me find the perfect apartment with zero hassle. The customer service was excellent throughout the process.",
+    desc: "I was able to hire an interior expert and also purchase high-quality furnishings from one place. Everything was smooth and professional.",
     videoUrl: testimonialvideo,
   },
   {
     img: "https://randomuser.me/api/portraits/women/44.jpg",
     name: "Priya Sharma",
     role: "Buyer, Delhi",
-    desc: "The entire experience was seamless, and I loved how easy it was to browse and shortlist properties.",
+    desc: "Loved the seamless experience of browsing designer products, getting estimates, and hiring a freelancer directly through the platform.",
     videoUrl: testimonialvideo,
   },
   {
     img: "https://randomuser.me/api/portraits/women/35.jpg",
     name: "Anita Reddy",
-    role: "Owner, Hyderabad",
-    desc: "Very happy with the support from 99acres. The listing process was simple, and I got responses quickly.",
+    role: "Interior Designer, Hyderabad",
+    desc: "This platform connects me with amazing clients looking to beautify their homes. It’s easy to showcase my work and build trust.",
     videoUrl: testimonialvideo,
   },
   {
     img: "https://randomuser.me/api/portraits/men/58.jpg",
     name: "Vikram Singh",
-    role: "Dealer, Mumbai",
-    desc: "Reliable platform and great visibility for my property listings. Highly recommended.",
+    role: "Freelancer, Mumbai",
+    desc: "Great visibility for my freelance services and products. I’ve been able to grow my interior design business faster than ever.",
     videoUrl: testimonialvideo,
   },
 ];
@@ -58,7 +58,7 @@ const TestimonialCard = ({ img, name, role, desc, videoUrl }) => {
       viewport={{ once: true }}
       className="bg-white border border-gray-200 rounded-xl shadow p-4 h-[480px] flex flex-col justify-between mx-2"
     >
-      {/* Directly show video */}
+      {/* Video Preview */}
       <div className="mb-4 rounded overflow-hidden">
         <video
           className="w-full h-[200px] object-cover rounded"
@@ -70,7 +70,7 @@ const TestimonialCard = ({ img, name, role, desc, videoUrl }) => {
         />
       </div>
 
-      {/* Text Content */}
+      {/* Client Info */}
       <div>
         <h4 className="font-semibold text-gray-800">{name}</h4>
         <p className="text-sm text-gray-500 mb-2">{role}</p>
@@ -90,22 +90,23 @@ const TestimonialCard = ({ img, name, role, desc, videoUrl }) => {
   );
 };
 
-
 const TestimonialSlider = () => {
   return (
-<div className="relative pb-24 md:pb-24">
-{/* Header Section */}
+    <div className="relative pb-24 md:pb-24">
+      {/* Header Section */}
       <div className="relative bg-gray-300 py-12 md:py-24 md:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="mb-8 md:mb-16">
             <p className="text-sm font-semibold text-gray-500 uppercase">
-              Testimonials
+              What Our Clients Say
             </p>
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-              What our customers are saying about 99acres
+              Real Stories From Our Home Design Community
             </h1>
             <p className="text-gray-600 mt-2">
-              Hear from our satisfied buyers, tenants, owners and dealers
+              Hear from homeowners, tenants, designers, and freelancers who’ve
+              transformed their spaces or businesses with us. From hiring pros to
+              buying interior products — it’s all possible here.
             </p>
           </div>
         </div>
